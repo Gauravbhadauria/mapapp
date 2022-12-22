@@ -14,7 +14,7 @@ const ChatScreen = () => {
       temp.push(item);
     });
     setChatList(temp);
-    inputRef.current.clear()
+    inputRef.current.clear();
   };
   return (
     <View style={styles.container}>

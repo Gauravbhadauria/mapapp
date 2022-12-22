@@ -14,7 +14,7 @@ const AppNavigator = () => {
           component={MapScreen}
           options={{headerShown: true}}
         />
-         <Stack.Screen
+        <Stack.Screen
           name="ChatScreen"
           component={ChatScreen}
           options={{headerShown: true}}
